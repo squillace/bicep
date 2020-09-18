@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/bicep@v1
+      uses: squillace/bicep@v1
       with:
         who-to-greet: 'Ralph Squillace'
     # Use the output from the `hello` step
