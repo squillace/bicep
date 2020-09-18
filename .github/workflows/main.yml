@@ -3,9 +3,9 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Bicep build action
     steps:
-    - name: Hello world action step
+    - name: We are going to say hello
       id: hello
       uses: squillace/bicep@v1
       with:
